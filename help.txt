@@ -1,0 +1,24 @@
+kid: keyword_id
+bid: the x value, the how much we bid for a given keyword
+kid_ctr_cr: dict: { kid: (ctr,cr), ... }
+ctr: click-through-rate
+cr: conversion-rate
+impressions * ctr = clicks
+clicks * cr = sales
+bid * clicks = cost
+
+Impressions is the number of times an ad is displayed.  It is the main y
+value and together with ctr and cr it is used to calculate clicks and sales.
+
+CTR is the click-through-rate, how often an impression leads to a click.
+impressions * CTR = clicks
+
+CR is the conversion rate, how often a click leads to a sale:
+clicks * CR = sales
+therefore
+impresstions * CTR * CR = sales
+
+We are trying to optimize for the highest number of sales within the
+given budget.
+
+Let me know if you have any more questions.
